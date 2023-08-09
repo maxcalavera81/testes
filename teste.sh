@@ -145,13 +145,10 @@ install_hassio() {
   echo "A instalar o Home Assistant..."
   echo ""
   
-#  apt-get update
-#  apt-get install udisks2 wget -y
-#  wget https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb
-#  sudo dpkg -i --ignore-depends=systemd-resolved homeassistant-supervised.deb
-
+  apt-get update
+  apt-get install udisks2 wget -y
   wget https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb
-  apt install ./homeassistant-supervised.deb
+  sudo dpkg -i homeassistant-supervised.deb
 }
 
 # ==============================================================================
