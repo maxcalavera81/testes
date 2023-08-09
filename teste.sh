@@ -118,8 +118,8 @@ install_docker() {
   echo ""
   echo "A instalar Docker..."
   echo ""
-#  curl -fsSL https://get.docker.com | sh
-  curl -fsSL get.docker.com | sh
+  curl -fsSL https://get.docker.com | sh
+#  curl -fsSL get.docker.com | sh
 }
 
 # ------------------------------------------------------------------------------
